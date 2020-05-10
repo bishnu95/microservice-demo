@@ -1,0 +1,13 @@
+user-profile.put.request.received=Receive request for update user profile
+user-profile.put.request.executed=Successfully executed request for update user profile
+
+user-profile.delete.request.received=Receive request for delete user profile
+user-profile.delete.request.executed=Successfully executed request for delete user profile
+
+user-profile.post.request.received=Receive request for create user profile
+user-profile.post.request.executed=Successfully executed request for create user profile
+
+user-profile.get.request.received=Receive request for get user profile
+user-profile.get.request.executed=Successfully executed request for get user profile
+
+user-profile.no.record.found=No record found

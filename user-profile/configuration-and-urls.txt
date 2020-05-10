@@ -1,0 +1,43 @@
+------Kafka-------
+kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+kafka>.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+kafka>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic user_profile_update_topic
+
+-------H2 Url-------------
+http://localhost:9080/h2-console
+
+-------Eureka url----------
+http://localhost:8761/
+
+------Hystrix Url--------
+http://localhost:12000/
+http://localhost:9010/actuator/hystrix.stream
+
+-------------Assignement Service Url--------------
+http://localhost:9010/actuator/health
+http://localhost:9020/swagger-ui.html
+http://localhost:9010/swagger-ui.html
+
+http://localhost:9010/assignement/profiles
+
+POST, PUT, DELETE (Un-Restricted)
+
+http://localhost:9010/assignement/users/{userId}
+
+GET (Restricted)
+
+--------------User-Profile Service----------------
+http://localhost:9020/users
+
+POST, PUT, DELETE
+
+http://localhost:9020/users/{userId}
+
+GET
+
+---------------zipkin url--------------
+http://localhost:9411/zipkin/
+
+
